@@ -56,7 +56,7 @@
   <td>
     <a href = "hglim4747@naver.com"> hglim4747@naver.com </a>
   </td>
-  <td></td>
+  <td>mentor</td>
 </tr>
 <tr>
   <td>
