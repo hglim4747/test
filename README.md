@@ -1,4 +1,4 @@
-# 여름방학 스터디
+﻿# 여름방학 스터디
 
 
 <h3>▶참가자</h3>
@@ -16,7 +16,7 @@
 </tr>
 <tr>
   <td>
-    권진욱
+    <a href = "https://github.com/dnlseldk1">권진욱</a>
   </td>
   <td>
     <a href = "dnlseldk1@naver.com"> dnlseldk1@naver.com </a>
@@ -28,12 +28,13 @@
     김지훈
   </td>
   <td>
+    <a href = "kjhwp@naver.com"> kjhwp@naver.com </a>
   </td>
   <td></td>
 </tr>
 <tr>
   <td>
-    문병준
+    <a href = "https://github.com/cacao518">문병준</a>
   </td>
   <td>
     <a href = "qudwns518@naver.com "> qudwns518@naver.com  </a>
