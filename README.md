@@ -7,31 +7,54 @@
   <th>
     이름
   </th>
+  <th>
+    이메일
+  </th>
+  <th>
+    비고
+  </th>
 </tr>
 <tr>
   <td>
     권진욱
   </td>
+  <td>
+    <a href = "dnlseldk1@naver.com"> dnlseldk1@naver.com </a>
+  </td>
+  <td></td>
 </tr>
 <tr>
   <td>
     김지훈
   </td>
+  <td></td>
 </tr>
 <tr>
   <td>
     문병준
   </td>
+  <td>
+    <a href = "qudwns518@naver.com "> qudwns518@naver.com  </a>
+  </td>
+  <td></td>
 </tr>
 <tr>
   <td>
     윤지수
   </td>
+  <td>
+    <a href = "wowow017@naver.com"> wowow017@naver.com </a>
+  </td>
+  <td></td>
 </tr>
 <tr>
   <td>
     임환규
   </td>
+  <td>
+    <a href = "hglim4747@naver.com"> hglim4747@naver.com </a>
+  </td>
+  <td></td>
 </tr>
 <tr>
   <td>
