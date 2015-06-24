@@ -27,6 +27,8 @@
   <td>
     김지훈
   </td>
+  <td>
+  </td>
   <td></td>
 </tr>
 <tr>
@@ -49,7 +51,7 @@
 </tr>
 <tr>
   <td>
-    임환규
+    <a href = "https://github.com/hglim4747">임환규</a>
   </td>
   <td>
     <a href = "hglim4747@naver.com"> hglim4747@naver.com </a>
