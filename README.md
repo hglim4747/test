@@ -57,11 +57,7 @@
   <td>
     <a href = "hglim4747@naver.com"> hglim4747@naver.com </a>
   </td>
-  <td>mentor</td>
+  <td></td>
 </tr>
-<tr>
-  <td>
-    
-  </td>
-</tr>
+
 </table>
