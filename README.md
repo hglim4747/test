@@ -59,5 +59,13 @@
   </td>
   <td></td>
 </tr>
-
+<tr>
+  <td>
+    이지영
+  </td>
+  <td>
+    
+  </td>
+  <td></td>
+</tr>
 </table>
