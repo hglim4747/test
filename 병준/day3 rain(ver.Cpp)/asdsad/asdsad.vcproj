@@ -165,56 +165,40 @@
 	<References>
 	</References>
 	<Files>
-		<Filter
-			Name="App"
-			>
-			<File
-				RelativePath="..\..\..\..\..\..\..\git projects\test2\병준\day2 rain(ver.C)\App.cpp"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\..\..\..\..\git projects\test2\병준\day2 rain(ver.C)\App.h"
-				>
-			</File>
-		</Filter>
-		<Filter
-			Name="Func"
-			>
-			<File
-				RelativePath="..\..\..\..\..\..\..\git projects\test2\병준\day2 rain(ver.C)\Func.cpp"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\..\..\..\..\git projects\test2\병준\day2 rain(ver.C)\Func.h"
-				>
-			</File>
-		</Filter>
-		<Filter
-			Name="Player"
-			>
-			<File
-				RelativePath="..\..\..\..\..\..\..\git projects\test2\병준\day2 rain(ver.C)\Player.cpp"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\..\..\..\..\git projects\test2\병준\day2 rain(ver.C)\Player.h"
-				>
-			</File>
-		</Filter>
-		<Filter
-			Name="Rain"
-			>
-			<File
-				RelativePath="..\..\..\..\..\..\..\git projects\test2\병준\day2 rain(ver.C)\Rain.cpp"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\..\..\..\..\git projects\test2\병준\day2 rain(ver.C)\Rain.h"
-				>
-			</File>
-		</Filter>
 		<File
-			RelativePath="..\..\..\..\..\..\..\git projects\test2\병준\day2 rain(ver.C)\main.cpp"
+			RelativePath=".\App.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\App.h"
+			>
+		</File>
+		<File
+			RelativePath=".\Func.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\Func.h"
+			>
+		</File>
+		<File
+			RelativePath=".\main.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\Player.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\Player.h"
+			>
+		</File>
+		<File
+			RelativePath=".\Rain.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\Rain.h"
 			>
 		</File>
 	</Files>
