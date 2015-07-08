@@ -1,6 +1,6 @@
 #include "Func.h"
 #include <Windows.h>
-
+#include <stdio.h>
 extern int w, h;
 
 void GotoXY(int x, int y)

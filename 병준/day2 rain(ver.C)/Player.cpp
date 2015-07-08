@@ -5,34 +5,34 @@
 int playerX, playerY;
 extern int w, h;
 
-void PlayerInitialize()
+CPlayer :: CPlayer()
 {
 	playerX = w / 2;
 	playerY = h - 2;
 }
-void PlayerClear()
+void CPlayer :: Clear()
 {
 	GotoXY(playerX * 2, playerY);
 	SetColor(WHITE, BLACK);
 	printf(" ");
 }
-void PlayerUpdate()
+void CPlayer :: Update()
 {
 
 }
-void PlayerRender()
+void CPlayer :: Render()
 {
 	GotoXY(playerX * 2, playerY);
 	SetColor(WHITE, BLACK);
 	printf("¿Ê");
 
 }
-void PlayerDestroy()
+CPlayer :: ~CPlayer()
 {
 
 }
 
-void PlayerMove(int left)
+void CPlayer :: Move(int left)
 {
 	if(left == 1)
 	{
