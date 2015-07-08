@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{93474095-3e15-4943-8262-b77c1de78ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\App">
+      <UniqueIdentifier>{62f6d1e2-25b9-4437-8d86-f9e1e5e8bb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Func">
+      <UniqueIdentifier>{55cac9f4-d971-4938-b1b5-6f9e81b14888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Player">
+      <UniqueIdentifier>{3f7ac17b-3561-4850-b667-7a522bf06f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Rain">
+      <UniqueIdentifier>{217caec2-5c14-4444-a811-0fc37286c5de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>source\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Func.cpp">
+      <Filter>source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Rain.cpp">
+      <Filter>source\Rain</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>source\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Rain.h">
+      <Filter>source\Rain</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
