@@ -1,7 +1,8 @@
 #include "Func.h"
+#include <stdio.h>
 #include <Windows.h>
 
-extern int w, h;
+extern int w, h; // 외부 참조
 
 void GotoXY(int x, int y)
 {

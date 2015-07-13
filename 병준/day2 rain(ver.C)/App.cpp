@@ -3,10 +3,11 @@
 #include "Player.h"
 #include "Rain.h"
 #include <windows.h>
+#include <stdio.h>
 int w, h;
 extern int game;
 
-void Initialize()
+void CApp::Initialize()
 {
 	SetColor(BLACK, DARK_VIOLET);
 	system("cls");
@@ -14,54 +15,54 @@ void Initialize()
 	w = 30;
 	h = 15;
 	PrintMap();
-	PlayerInitialize();
+	m_pPlayer =new CPlayer();
 	RainInitialize();
 }
 
-void Clear()
+void CApp::Clear()
 {
-	PlayerClear();
+	m_pPlayer->Clear();
 	RainClear();
 }
 
-void Input()
+void CApp::Input()
 {
 	if(GetKeyState(VK_LEFT) & 0x8000 )
 	{
-		PlayerMove(1);
+		m_pPlayer->Move(1);
 	}
 	if(GetKeyState(VK_RIGHT) & 0x8000 )
 	{
-		PlayerMove(0);
+		m_pPlayer->Move(0);
 	}
 }
 
-void Update()
+void CApp::Update()
 {
 	RainUpdate();
-	PlayerUpdate();
+	m_pPlayer->Update();
 
 }
 
-void Render()
+void CApp::Render()
 {
-	PlayerRender();
+	m_pPlayer->Render();
 	RainRender();
 }
 
-void Break()
+void CApp::Break()
 {
-	Sleep(45);
+	Sleep(100);
 }
 
 
-void Destroy()
+void CApp::Destroy()
 {
-	PlayerDestroy();
+	delete m_pPlayer;
 	RainDestroy();
 }
 
-int Restart()
+int CApp::Restart()
 {
 	GotoXY(2, h + 3);
 	printf("Restart? ( y / n) ");
