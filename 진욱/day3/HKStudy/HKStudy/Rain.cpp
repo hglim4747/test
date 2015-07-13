@@ -7,7 +7,7 @@ extern int game;
 
 int rainX[RAINNUM], rainY[RAINNUM];
 
-void RainInit()
+CRain()
 {
 	int i;
 	for (i = 0; i < RAINNUM; i++)
@@ -16,6 +16,12 @@ void RainInit()
 		rainY[i] = -(rand() % h);
 	}
 }
+
+~CRain()
+{
+
+}
+
 void RainClear()
 {
 	int i;
@@ -60,7 +66,4 @@ void RainRender()
 		}
 	}
 }
-void RainDestroy()
-{
 
-}

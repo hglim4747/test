@@ -2,8 +2,12 @@
 
 #define RAINNUM 7
 
-void RainInit();
-void RainClear();
-void RainUpdate();
-void RainRender();
-void RainDestroy();
+class CRain
+{
+public:
+	CRain();
+	void Clear();
+	void Update();
+	void Render();
+	~CRain();
+};
