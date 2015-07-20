@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include "Func.h"
 #include <stdio.h>
+#include "Player.h"
 
 extern int w, h, game;
-extern int playerX, playerY;
 int rainX[RAINNUM], rainY[RAINNUM];
 
-void RainInitialize()
+CRain :: CRain(CPlayer *p)
 {
 	int i;
 	for(i =0; i< RAINNUM; i++)
@@ -15,8 +15,10 @@ void RainInitialize()
 		rainX[i] = rand() % (w-2) + 1;
 		rainY[i] = -(rand() % h);
 	}
+
+	Player = p;
 }
-void RainClear()
+void CRain :: Clear()
 {
 	int i;
 	for (i = 0; i < RAINNUM; i++)
@@ -29,7 +31,7 @@ void RainClear()
 		}
 	}
 }
-void RainUpdate()
+void CRain :: Update()
 {
 	int i;
 	for (i = 0; i < RAINNUM; i++)
@@ -40,16 +42,16 @@ void RainUpdate()
 			rainX[i] = rand() % (w-2) +1;
 			rainY[i] = -(rand() % h);
 		}
-		if(playerX == rainX[i])
+		if(Player -> x == rainX[i])
 		{
-			if(playerY == rainY[i])
+			if(Player -> y == rainY[i])
 			{
 				game = 0;
 			}
 		}
 	}
 }
-void RainRender()
+void CRain :: Render()
 {
 	int i;
 	for (i = 0; i < RAINNUM; i++)
@@ -62,7 +64,7 @@ void RainRender()
 		}
 	}
 }
-void RainDestroy()
+CRain :: ~CRain()
 {
 
 }

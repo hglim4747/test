@@ -1,7 +1,7 @@
 #pragma once
 // 전처리 구문 : 헤더 파일을 한번만 포함되도록
 #include "Player.h"
-
+#include "Rain.h"
 class CApp
 {
 public:
@@ -18,4 +18,5 @@ public:
 	int Restart(); // 재시작
 
 	CPlayer * m_pPlayer;
+	CRain * m_pRain;
 };

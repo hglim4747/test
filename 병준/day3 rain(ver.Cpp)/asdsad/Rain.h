@@ -1,8 +1,16 @@
 #pragma once
-#define RAINNUM 100
+#define RAINNUM 7
 
-void RainInitialize();
-void RainClear();
-void RainUpdate();
-void RainRender();
-void RainDestroy();
+class CPlayer;
+class CRain
+{
+public:
+	CRain(CPlayer *p);
+	~CRain();
+
+	CPlayer *Player;
+
+	void Clear();
+	void Update();
+	void Render();
+};
