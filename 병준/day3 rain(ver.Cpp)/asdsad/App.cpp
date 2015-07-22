@@ -16,13 +16,13 @@ void CApp::Initialize()
 	h = 15;
 	PrintMap();
 	m_pPlayer =new CPlayer();
-	RainInitialize();
+	m_pRain = new CRain(m_pPlayer);
 }
 
 void CApp::Clear()
 {
 	m_pPlayer->Clear();
-	RainClear();
+	m_pRain->Clear();
 }
 
 void CApp::Input()
@@ -39,7 +39,7 @@ void CApp::Input()
 
 void CApp::Update()
 {
-	RainUpdate();
+	m_pRain->Update();
 	m_pPlayer->Update();
 
 }
@@ -47,19 +47,19 @@ void CApp::Update()
 void CApp::Render()
 {
 	m_pPlayer->Render();
-	RainRender();
+	m_pRain->Render();
 }
 
 void CApp::Break()
 {
-	Sleep(100);
+	Sleep(70);
 }
 
 
 void CApp::Destroy()
 {
 	delete m_pPlayer;
-	RainDestroy();
+	delete m_pRain;
 }
 
 int CApp::Restart()

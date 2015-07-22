@@ -9,6 +9,7 @@ public:
 	void Clear();
 	void Update();
 	void Render();
-
 	void Move(int left);
+
+	int x,y; // 플레이어의 좌표
 };
